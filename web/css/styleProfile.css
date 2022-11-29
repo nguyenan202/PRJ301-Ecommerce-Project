@@ -1,0 +1,14 @@
+.left > div {
+    top: 20%;
+    left: 70%;
+}
+
+.feature-divider {
+    height: 10px;
+    width: 80%;
+    border-radius: 4px;
+}
+
+table input {
+    width: 100%;
+}

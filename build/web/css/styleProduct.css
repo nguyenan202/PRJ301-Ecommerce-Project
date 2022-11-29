@@ -1,0 +1,85 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+}
+
+.feature-divider {
+    height: 2px;
+    width: 100%;
+    background: #333;
+    opacity: 0.7;
+}
+
+.search input {
+    width: 100%;
+    height: 36px;
+    padding-left: 6px;
+}
+
+.list p {
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.list p select {
+    width: 100%;
+    height: 100%;
+}
+
+.list p input {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+.products .item {
+    box-shadow: 0px 0px 10px 2px #888888;
+}
+
+.products .item:hover img {
+    opacity: 0.8;
+}
+
+.products .item .order {
+    bottom: -50px;
+    background: rgba(121, 117, 101, 0.8);
+}
+
+.products .item:hover .order {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: bottom 0.3s ease-in 0s;
+}
+
+.page {
+    top: -36px;
+    right: 40px;
+}
+
+.page span {
+    color: white;
+    background: #888888;
+    padding: 4px 0;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.page span input {
+    width: 24px;
+    height: 30px;
+}
+
+.page span.active {
+    background-color: orange;
+    color: black;
+}
+
+.page span:hover {
+    opacity: 0.7;
+}
